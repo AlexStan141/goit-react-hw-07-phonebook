@@ -1,0 +1,27 @@
+.label {
+    display: block;
+    margin: 0 auto 10px;
+    width: 150px;
+}
+
+.input,
+.input:focus {
+    display: block;
+    border-bottom: 3px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.input:focus {
+    border-bottom: 3px solid orange;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    background-color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 160px;
+    height: 30px;
+}
